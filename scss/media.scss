@@ -1,0 +1,495 @@
+@media (max-width: 1700px) {
+	.team .element {
+		max-width: 120px;
+		height: 120px;
+	}
+	.team .element.one {
+		right: 100px;
+	}
+	.team .element.two {
+		bottom: 10px;
+	}
+}
+
+@media (min-width: 1300px) {
+	.team-body {
+		display: flex;
+		flex-direction: row;
+		margin-top: 71px;
+	}
+
+	.team-inner {
+		flex: 0 0 68%;
+		transform: translateX(-100%);
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		padding-bottom: 80px;
+		overflow: hidden;
+		padding-right: 20px;
+	}
+	.team-content {
+		flex: 0 0 100%;
+	}
+
+	.team-item {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		z-index: 5;
+		padding-right: 20px;
+		margin-top: 147px;
+		max-width: 27%;
+	}
+}
+@media (max-width: 1300px) {
+	.team .element.two {
+		display: none;
+	}
+	.team .element.one {
+		top: 45px;
+	}
+	.home-item {
+		padding: 56px 15px;
+	}
+	.home-item h1 {
+		font-size: 65px;
+	}
+	footer::after {
+		display: none;
+	}
+	.contact::after {
+		width: 390px;
+		height: 80%;
+	}
+
+	.contact {
+		padding-top: 80px;
+		padding-bottom: 200px;
+	}
+	.contact::before {
+		width: 300px;
+		height: 80px;
+	}
+	.contact-content {
+		max-width: 70%;
+	}
+	.team {
+		padding-bottom: 60px;
+		padding-top: 60px;
+	}
+	.chack {
+		margin-bottom: 50px;
+		max-width: 700px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.team-item h4 {
+		font-size: 30px;
+	}
+	.chack-box {
+		padding: 14px 43px;
+	}
+	.team-inner {
+		margin-top: 40px;
+	}
+	.home .lines-bg-two {
+		max-width: 500px;
+		height: 500px;
+		right: 0;
+	}
+	.home .lines-bg {
+		position: absolute;
+		left: -100px;
+		top: 50%;
+		transform: translateY(-50%);
+		max-width: 380px;
+		width: 100%;
+		height: 463px;
+	}
+	.home-item::before {
+		max-width: 140px;
+		height: 140px;
+		transform: translateY(-50%);
+		left: 130px;
+	}
+	.swiper-button-next,
+	.swiper-button-prev {
+		display: none;
+	}
+	.swiper-horizontal > .swiper-pagination-progressbar,
+	.swiper-pagination-progressbar.swiper-pagination-horizontal,
+	.swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite,
+	.swiper-vertical > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
+		top: 99%;
+	}
+	.home-item::after {
+		display: none;
+	}
+}
+
+@media (max-width: 1000px) {
+	.home-item {
+		background-image: url(../images/home/item-bg-phone.png);
+	}
+	.home .elem-one {
+		max-width: 500px;
+	}
+	.home-item h1 {
+		font-size: 55px;
+		line-height: 65px;
+	}
+
+	.partners-content {
+		margin-top: 50px;
+		grid-template-columns: 100%;
+		grid-row-gap: 30px;
+	}
+	.partners-item .tabs {
+		height: 145px;
+	}
+	.footer-item .locations p {
+		font-size: 16px;
+		margin-left: 12px;
+	}
+	.footer-item .sub-title {
+		font-size: 20px;
+		margin-bottom: 15px;
+		&::after {
+			width: 90px;
+		}
+	}
+	.footer-social a {
+		max-width: 18px;
+		margin-left: 18px;
+	}
+	.footer-policy {
+		margin-top: 23px;
+		font-weight: 300;
+		font-size: 16px;
+	}
+	footer {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.contact::after {
+		right: -170px;
+	}
+	.contact-content {
+		max-width: 100%;
+	}
+
+	.popup {
+		padding: 10px;
+		max-width: 620px;
+	}
+	.popup-info .desk .first {
+		font-size: 16px;
+		line-height: 18px;
+		width: 60px;
+	}
+	.popup-info .desk .last {
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 18px;
+		padding: 7px 10px;
+	}
+	.popup-text {
+		font-size: 16px;
+		line-height: 147%;
+	}
+	.popup-img {
+		max-width: 250px;
+	}
+	.popup-content .close {
+		top: -28px;
+		right: -28px;
+	}
+	.home .lines-bg-two {
+		display: none;
+	}
+	.home .elem-three {
+		display: none;
+	}
+}
+
+@media (max-width: 750px) {
+	.header-nav {
+		display: none;
+	}
+	.home .elem-one {
+		max-width: 315px;
+	}
+	.header-logo {
+		max-width: 102px;
+	}
+	.burger {
+		display: block;
+	}
+
+	.home-item h1 {
+		font-size: 34px;
+		line-height: 39px;
+	}
+	.home-item p {
+		font-size: 16px;
+		line-height: 20px;
+		margin-top: 30px;
+	}
+	.home-item .home-buttons {
+		flex-direction: column;
+		margin-top: 30px;
+		& .btn {
+			margin-left: 0;
+			margin-top: 30px;
+			font-size: 20px;
+			line-height: 23px;
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+	}
+	.title {
+		font-size: 24px;
+	}
+	.partners {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.partners-content {
+		margin-top: 30px;
+	}
+	.partners-users .photo {
+		width: 60px;
+		height: 60px;
+	}
+	.partners-users .description .name {
+		font-size: 20px;
+		line-height: 23px;
+	}
+	.partners-users .description .prof {
+		font-size: 16px;
+		line-height: 18px;
+		margin-top: 5px;
+	}
+
+	.partners-inner .text {
+		margin-top: 20px;
+		font-size: 16px;
+		line-height: 137%;
+	}
+	.footer-item .locations img {
+		width: 12px;
+		margin-top: 8px;
+	}
+	.footer-item .locations {
+		margin-top: 8px;
+	}
+	.footer-content {
+		margin-top: 30px;
+	}
+	.contact {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.contact-item input {
+		padding: 16px;
+	}
+	.contact-item {
+		grid-template-columns: 49% 49%;
+		grid-row-gap: 15px;
+	}
+	.users-file + label {
+		max-width: 355px;
+		padding-top: 18px;
+		padding-bottom: 18px;
+	}
+	.contact::before {
+		display: none;
+	}
+	.contact-item input::placeholder {
+		font-size: 16px;
+	}
+	.contact-item .select {
+		padding: 16px;
+		font-size: 16px;
+	}
+	.users-coment {
+		margin-top: 15px;
+		padding: 16px;
+		height: 193px;
+		&::placeholder {
+			font-size: 16px;
+			font-weight: 300;
+		}
+	}
+	.contact-buttons {
+		margin-top: 20px;
+	}
+	.contact-content {
+		margin-top: 22px;
+	}
+	.users-btn {
+		font-size: 20px;
+	}
+	.contact::after {
+		right: -235px;
+	}
+	.image-slider-image .card-info .card-info-content .name {
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 28px;
+		margin-bottom: 7px;
+	}
+	.image-slider-image .card-info .card-info-content .prof {
+		font-weight: normal;
+		font-size: 20px;
+		line-height: 23px;
+		margin-bottom: 20px;
+	}
+	.image-slider-image .card-info .card-info-content .card-btn {
+		padding: 17px 47px;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+	}
+	.image-slider-image .card-info {
+		padding-bottom: 30px;
+	}
+	.team {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.team-body {
+		margin-top: 30px;
+	}
+	.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+		height: 7px;
+		top: -50%;
+	}
+	.swiper-horizontal > .swiper-pagination-progressbar,
+	.swiper-pagination-progressbar.swiper-pagination-horizontal {
+		width: 91%;
+		margin-left: 20px;
+	}
+	.team-item {
+		& h4 {
+			font-size: 20px;
+			line-height: 23px;
+		}
+	}
+	.team-item p {
+		margin-top: 15px;
+		font-size: 16px;
+		line-height: 147%;
+	}
+	.chack {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.chack-box {
+		padding: 8px 0;
+		font-size: 18px;
+		line-height: 21px;
+		align-items: center;
+	}
+	.check-style {
+		width: 18px;
+		height: 18px;
+		margin-right: 5px;
+	}
+	.check-input:checked + .check-style::before {
+		width: 8px;
+		height: 8px;
+	}
+	.team .element {
+		max-width: 63px;
+		height: 63px;
+		&.one {
+			right: 31px;
+		}
+	}
+	.home .lines-bg {
+		height: 350px;
+	}
+}
+@media (max-width: 700px) {
+	.footer-content {
+		display: flex;
+		flex-direction: column;
+	}
+	.footer-item {
+		margin-top: 30px;
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+	.contact-item {
+		grid-template-columns: 100%;
+	}
+	.contact-buttons {
+		flex-direction: column;
+	}
+	.users-btn {
+		margin-top: 40px;
+	}
+	.contact::after {
+		right: -140px;
+		height: 66%;
+		width: 315px;
+		transform: translateY(-56%);
+	}
+	.pupup-item {
+		flex-direction: column;
+	}
+	.popup-img {
+		margin-bottom: 20px;
+	}
+	.popup-info .popup-social a {
+		max-width: 20px;
+		height: 20px;
+	}
+	.popup {
+		max-width: 335px;
+	}
+	.popup-img {
+		max-width: 102px;
+	}
+	.home .lines-bg-mobil-left {
+		display: block;
+	}
+	.home .lines-bg-mobil-right {
+		display: block;
+	}
+	.home .lines-bg {
+		display: none;
+	}
+	.home-item::before {
+		max-width: 79px;
+		height: 79px;
+		transform: translateY(-10%);
+		left: 90px;
+	}
+}
+
+@media (max-width: 550px) {
+	.partners-item {
+		grid-template-columns: 49% 49%;
+		grid-column-gap: 2%;
+		grid-row-gap: 10px;
+	}
+	.partners-item .tabs {
+		height: 100px;
+	}
+	.partners-users .photo {
+		width: 44px;
+		height: 44px;
+	}
+	.users-file + label {
+		max-width: 100%;
+	}
+	.users-file-block {
+		max-width: 100%;
+	}
+}
